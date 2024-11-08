@@ -1,0 +1,116 @@
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 8px 0px 24px;
+    background-color: white;
+    height: 72px;
+}
+
+#logo{
+    font-size: 40px;
+    font-weight: semibold;
+}
+
+.blue_color{
+    color: rgb(0,103,219);
+}
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: auto;
+    height: 50px;
+    margin-left: 50px;
+    font-weight: semibold;
+}
+.border_radius{
+    border-radius: 10px;
+    border: 0.1px solid grey;
+}
+.border_radius:hover{
+    background-color: hsl(0, 0%, 90%);
+}
+#header ul li{
+    padding: 4px 16px;
+    font-weight: 500;
+}
+#header ul li:hover{
+    cursor: pointer;
+}
+#header a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.background-container {
+    position: relative;
+    background-image: url('https://mediaim.expedia.com/destination/9/8edf0327b363eb260b617bac22a2e83c.jpg?impolicy=fcrop&w=469&h=201&p=1&q=medium'); 
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+
+  /* Content container on top of the overlay */
+  .content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    margin: auto;
+  }
+
+  /* Styling for search box */
+  .search-box {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px 20px;
+    position: sticky;
+    top: 260px;
+  }
+
+  .search-box input,
+  .search-box button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+
+  .search-box button {
+    background-color: #0d47a1;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .search-box input:focus {
+    outline: none;
+    border-color: #0d47a1;
+  }
