@@ -57,7 +57,7 @@
     background-image: url('https://mediaim.expedia.com/destination/9/8edf0327b363eb260b617bac22a2e83c.jpg?impolicy=fcrop&w=469&h=201&p=1&q=medium'); 
     background-size: cover;
     background-position: center;
-    height: 500px; /* Adjust height as needed */
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,7 +75,7 @@
     z-index: 1;
   }
 
-  /* Content container on top of the overlay */
+ 
   .content {
     position: relative;
     z-index: 2;
@@ -83,7 +83,6 @@
     margin: auto;
   }
 
-  /* Styling for search box */
   .search-box {
     display: flex;
     gap: 10px;
@@ -114,3 +113,29 @@
     outline: none;
     border-color: #0d47a1;
   }
+
+  #body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    width: auto;
+    height: 50px;
+    margin-left: 50px;
+    font-weight: semibold;
+    padding: 0px 87px;
+  }
+ 
+  .img-gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: auto;
+    height: 50px;
+    margin-left: 50px;
+    font-weight: semibold;
+  }
+
+  
